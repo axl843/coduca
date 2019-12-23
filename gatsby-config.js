@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'MDB React Starter',
-    description: 'MDB React starter for material design landing page',
-    siteUrl: 'https://gatsby-starter.mdbootstrap.com',
-    author: 'anna-morawska',
+    title: 'Coduca88',
+    description: 'Coduca88 Digital IT Agency',
+    siteUrl: 'https://coduca88.org',
+    author: 'Axl Coduca',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
