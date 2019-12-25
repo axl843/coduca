@@ -5,7 +5,7 @@ import {
 } from "mdbreact";
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
-import { ReactComponent as Logo } from "../images/light-bulb.svg";
+import { ReactComponent as Logo } from "../images/logo-coduca.svg";
 
 class NavbarPage extends Component {
   state = {
