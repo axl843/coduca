@@ -5,7 +5,7 @@ import {
 } from "mdbreact";
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
-import { ReactComponent as Logo } from "../images/light-bulb.svg";
+import { ReactComponent as Logo } from "../images/logo_string_CODUCA.svg";
 
 class NavbarPage extends Component {
   state = {
@@ -21,8 +21,8 @@ class NavbarPage extends Component {
       <MDBNavbar color="indigo" dark expand="md">
         <MDBContainer>
           <Logo  />
-          <Link to="/" className="navbar-brand">
-            <strong className="ml-3 white-text">Coduca88</strong></Link>
+          {/* <Link to="/" className="navbar-brand">
+            <strong className="ml-3 white-text">Coduca88</strong></Link> */}
           <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
